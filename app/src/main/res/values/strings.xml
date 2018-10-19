@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Semana09_DialogWV</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!--Valores de login-->
+    <string name="vUser">Usuario:</string>
+    <string name="vPass">Contraseña:</string>
+    <string name="vButtonLogin">INICIAR SESIÓN</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Valores del Webview-->
+    <string name="vIngreseUrl">Ingrese el URL:</string>
+    <string name="vButtonVisualizar">VISUALIZAR</string>
+</resources>

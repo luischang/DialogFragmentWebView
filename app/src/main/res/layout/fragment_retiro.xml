@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RetiroFragment"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <TextView
+        android:id="@+id/tvSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="269dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgTipo" />
+
+    <RadioGroup
+        android:id="@+id/rgTipo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="97dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvSeleccion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbCurso"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Curso" />
+
+        <RadioButton
+            android:id="@+id/rbCiclo"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ciclo" />
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>
